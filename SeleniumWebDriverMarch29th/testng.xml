@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.qa.reports.ReportingTest" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<!--      <class name="com.qa.testlayer.TC_001_Registrationform"/>
+-->
+			<class name="com.qa.testlayer.TC_002_WindowsHandle" />
+			<class name="com.qa.testlayer.TC_003_NewWindowOpen" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

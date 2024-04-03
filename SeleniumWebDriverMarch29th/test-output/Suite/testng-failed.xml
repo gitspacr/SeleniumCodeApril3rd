@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.reports.ReportingTest"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.testlayer.TC_001_Registrationform">
+        <methods>
+          <include name="tovalidateRegistrationForm" invocation-numbers="1 2"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowsers"/>
+        </methods>
+      </class> <!-- com.qa.testlayer.TC_001_Registrationform -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
